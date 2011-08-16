@@ -12,4 +12,4 @@ This is a simple Sinatra Ruby application copied from Cloud Foundry's README.
 
     sudo gem install bundler
     bundle install  # creates the required Gemfile.lock file
-    stackato push sinatra-env
+    stackato push -n
